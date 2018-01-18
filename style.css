@@ -1,0 +1,49 @@
+*{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+.wrapper{
+    margin: 20px;
+}
+
+#square{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+#circle{
+    margin-top: 10px;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#up-triangle{
+    margin-top: 10px;
+    /* background-color: blue; */
+    width: 0px;
+    height: 0px;
+    border-bottom: 100px solid blue;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+}
+
+#pacman{
+   
+    margin-top: 10px;
+    width: 0px;
+    height: 0px;
+    border-right: 40px solid transparent;
+    border-top: 40px solid blue;
+    border-left: 40px solid blue;
+    border-bottom: 40px solid blue;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    
+
+}
